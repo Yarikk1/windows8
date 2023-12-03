@@ -1,0 +1,180 @@
+.all_bloks {
+  display: flex;
+  overflow-x: scroll;
+  width: auto;
+  gap: 30px;
+}
+
+.main_block_1 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.main_block_1 div {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 88, 88);
+}
+
+.main_block {
+  display: flex;
+}
+
+.main_block2 {
+  display: flex;
+}
+
+.main_block_2 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.main_block_2 div {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(171, 255, 87);
+  margin: 0px 0px 0px 5px;
+}
+
+.main_block_3 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.main_block_3 div {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(171, 255, 87);
+}
+
+.main_block_4 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.main_block_4 div {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 196, 87);
+  margin: 0px 0px 0px 5px;
+}
+
+.main_block_5 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.main_block_5 div {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 196, 87);
+  margin: 0px 0px 0px 5px;
+}
+
+.main_block_5 div:nth-last-of-type(-n + 2) {
+  width: 105px;
+  margin: 0;
+}
+
+.main_block2_1 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.main_block2_1 div {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 87, 205);
+  margin: 0px 0px 0px 5px;
+}
+
+.main_block2_2 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.main_block2_2 div {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 87, 205);
+  margin: 0px 0px 0px 5px;
+}
+
+.main_block2_2 div:nth-last-of-type(n + 3) {
+  width: 105px;
+  margin: 0;
+}
+
+.main_block2_3 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.main_block2_3 div {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(87, 157, 255);
+  margin: 0px 0px 0px 5px;
+}
+
+.main_block2_3 div:nth-child(2) {
+  width: 105px;
+  margin: 0;
+  background-color: rgb(255, 87, 205);
+}
+
+.main_block2_4 {
+  display: flex;
+  flex-direction: column;
+}
+
+.main_block2_4 div {
+  width: 100px;
+  height: 102.5px;
+  background-color: rgb(87, 255, 93);
+  margin: 0px 0px 0px 5px;
+}
+
+.main_block2_5 {
+  display: flex;
+  flex-direction: column;
+}
+
+.main_block2_5 div {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(87, 255, 93);
+  margin: 5px 0px 0px 5px;
+}
+
+.main_block2_6 {
+  display: flex;
+  flex-direction: column;
+}
+
+.main_block2_6 div {
+  width: 105px;
+  height: 102.5px;
+  background-color: rgb(87, 255, 93);
+  margin: 0px 0px 0px 0px;
+}
+
+.main_block2_7 {
+  display: flex;
+  flex-direction: column;
+}
+
+.main_block2_7 div {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(87, 255, 235);
+  margin: 5px 0px 0px 5px;
+}
